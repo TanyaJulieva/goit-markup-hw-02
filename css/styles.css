@@ -19,11 +19,12 @@
 }
 
 body {
-  font-family: "Roboto", "Anuphan", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
+  background-color: var(--card-bg-color);
 }
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -71,12 +72,14 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: var(--white-txt-color);
+  text-align: center;
 }
 
 .hero {
   background-color: var(--dark-bg-color);
 }
 .order-serv-btn {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -85,6 +88,7 @@ body {
   background: var(--cta-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .order-serv-btn:hover,
@@ -95,12 +99,14 @@ body {
 }
 
 .filter-btn {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-color: var(--cta-color);
-background-color: var(--light-bg-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--cta-color);
+  background-color: var(--light-bg-color);
+  cursor: pointer;
 }
 
 .filter-btn:hover,
@@ -112,10 +118,11 @@ background-color: var(--light-bg-color);
 .title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11x;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--secondary-txt-color);
+  text-align: center;
 }
 
 .subtitle {
@@ -124,6 +131,14 @@ background-color: var(--light-bg-color);
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--secondary-txt-color);
+}
+
+.team {
+  background-color: var(--light-bg-color);
+}
+
+.list-card-item{
+  background-color: var(--card-bg-color);
 }
 
 .text {
