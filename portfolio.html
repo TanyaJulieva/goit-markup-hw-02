@@ -8,16 +8,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Heder -->
     <header class="page-heder">
       <nav class="page-nav">
-        <a class="logo link" href="./index.html">WebStudio</a>
+        <a class="logo link" href="./index.html"
+          >Web<span class="light-them-part">Studio</span></a
+        >
         <ul class="menu list">
           <li class="menu-item">
             <a class="menu-link link" href="./index.html">Studio</a>
@@ -30,15 +32,15 @@
           </li>
         </ul>
       </nav>
-      <address>
-        <ul class="contacts list">
+      <address class="contacts">
+        <ul class="contacts-nav list">
           <li class="contacts-item">
-            <a class="contact-mail link" href="mailto:info@devstudio.com"
+            <a class="contact-link link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
           <li class="contacts-item">
-            <a class="contact-phone link" href="tel:+110001111111"
+            <a class="contact-link link" href="tel:+110001111111"
               >+11 (000) 111-11-11</a
             >
           </li>
@@ -49,26 +51,28 @@
       <h1>Portfolio</h1>
       <!-- Filter -->
       <section>
+        <h2>filter</h2>
         <ul class="list">
           <li>
-            <button type="button">All</button>
+            <button class="filter-btn" type="button">All</button>
           </li>
           <li>
-            <button type="button">Web Site</button>
+            <button class="filter-btn" type="button">Web Site</button>
           </li>
           <li>
-            <button type="button">App</button>
+            <button class="filter-btn" type="button">App</button>
           </li>
           <li>
-            <button type="button">Design</button>
+            <button class="filter-btn" type="button">Design</button>
           </li>
           <li>
-            <button type="button">Marketing</button>
+            <button class="filter-btn" type="button">Marketing</button>
           </li>
         </ul>
       </section>
       <!-- portfolio -->
       <section>
+        <h2>portfolio</h2>
         <ul class="list">
           <li>
             <img
@@ -76,8 +80,8 @@
               alt="banking app"
               width="360"
             />
-            <h2>Banking App Interface Concept</h2>
-            <p>App</p>
+            <h3 class="subtitle">Banking App Interface Concept</h3>
+            <p class="text">App</p>
           </li>
           <li>
             <img
@@ -85,8 +89,8 @@
               alt="phone with QR"
               width="360"
             />
-            <h2>Cashless Payment</h2>
-            <p>Marketing</p>
+            <h3 class="subtitle">Cashless Payment</h3>
+            <p class="text">Marketing</p>
           </li>
           <li>
             <img
@@ -94,8 +98,8 @@
               alt="laptop and phone"
               width="360"
             />
-            <h2>Meditation App</h2>
-            <p>App</p>
+            <h3 class="subtitle">Meditation App</h3>
+            <p class="text">App</p>
           </li>
           <li>
             <img
@@ -103,8 +107,8 @@
               alt="car"
               width="360"
             />
-            <h2>Taxi Service</h2>
-            <p>Marketing</p>
+            <h3 class="subtitle">Taxi Service</h3>
+            <p class="text">Marketing</p>
           </li>
           <li>
             <img
@@ -112,8 +116,8 @@
               alt="phone and screens"
               width="360"
             />
-            <h2>Screen Illustrations</h2>
-            <p>Design</p>
+            <h3 class="subtitle">Screen Illustrations</h3>
+            <p class="text">Design</p>
           </li>
           <li>
             <img
@@ -121,8 +125,8 @@
               alt="girl"
               width="360"
             />
-            <h2>Online Courses</h2>
-            <p>Marketing</p>
+            <h3 class="subtitle">Online Courses</h3>
+            <p class="text">Marketing</p>
           </li>
           <li>
             <img
@@ -130,8 +134,8 @@
               alt="instagram stories"
               width="360"
             />
-            <h2>Instagram Stories Concept</h2>
-            <p>Design</p>
+            <h3 class="subtitle">Instagram Stories Concept</h3>
+            <p class="text">Design</p>
           </li>
           <li>
             <img
@@ -139,8 +143,8 @@
               alt="girl with shopper"
               width="360"
             />
-            <h2>Organic Food</h2>
-            <p>Web Site</p>
+            <h3 class="subtitle">Organic Food</h3>
+            <p class="text">Web Site</p>
           </li>
           <li>
             <img
@@ -148,15 +152,17 @@
               alt="coffee"
               width="360"
             />
-            <h2>Fresh Coffee</h2>
-            <p>Web Site</p>
+            <h3 class="subtitle">Fresh Coffee</h3>
+            <p class="text">Web Site</p>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <a class="link" href="./index.html">WebStudio</a>
-      <p>
+    <footer class="footer">
+      <a class="logo link" href="./index.html"
+        >Web<span class="dark-theme-part">Studio</span></a
+      >
+      <p class="text-footer">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
